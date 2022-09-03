@@ -1,0 +1,100 @@
+:root {
+    --azul: #0000FF;
+    --blanco: #FFFFFF;
+    --verde: #008f39;
+}
+
+html {
+    box-sizing: border-box;
+    width: auto;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.header {
+    text-align: center;
+    background-color: var(--azul);
+    color: var(--blanco);
+    height: 5rem;
+}
+
+.h1 {
+    padding-top: 1rem;
+}
+
+.cajaGeneral {
+    display: flex;
+}
+
+.img {
+    width: 10rem;
+    height: 6rem;
+}
+
+.cajaForm {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    border: solid;
+    width: 70%;
+    height: 60%;
+}
+
+.lbl {
+    margin-right: 10%;
+}
+
+.input {
+    margin-bottom: 5%;
+    border: solid;
+    width: 60%;
+}
+
+.inputC {
+    width: 100%;
+    border: solid;
+}
+
+.insend {
+    text-align: center;
+    color: var(--blanco);
+    background-color: var(--azul);
+    width: 60%;
+    margin-bottom: 5%;
+    height: 3rem;
+    border-radius: 10%;
+}
+
+.insend:hover {
+    cursor: grab;
+}
+
+.form {
+    padding-right: 20%;
+    text-align: right;
+}
+
+.izquierdo {
+    text-align: center;
+    border: solid;
+    border-top: 0ch;
+    width: 30%;
+    height: auto;
+    margin-right: 3rem;
+}
+
+.vinculo {
+    text-decoration: none;
+    color: var(--blanco);
+    background-color: #008f39;
+}
+
+.footer {
+    text-align: center;
+    background-color: var(--verde);
+    color: var(--blanco);
+}
